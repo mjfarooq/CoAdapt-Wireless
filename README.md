@@ -40,25 +40,15 @@ It does not include:
 │   ├── isaac_experiment_controller_oai_dev.py
 │   ├── factory_relay_oai_dev.py
 │   ├── ue_forwarder_oai_dev.py
-│   ├── ue_forwarder_multi_coco.py
 │   ├── edge_relay_oai_dev.py
 │   ├── codesign_experiment_runner_v1.py
-│   ├── codesign_prb_slice_experiment_runner_v1.py
-│   ├── codesign_prb_slice_optimizer_runner_v1.py
 │   ├── recover_oai_stack.sh
-│   ├── prepare_oai_prb_count_configs.py
 │   └── analyze_192_grid_resource_efficiency_cleaned.py
-├── plans/
-│   └── default_rfsim_reproduce_plan.json
-├── docs/
-│   ├── oai_dev_full_setup_guide.md
-│   ├── oai_dev_pipeline_setup.md
-│   ├── runbook_two_ue_flexric.md
-│   └── demo_paper_results.md
-├── results_summary/
-│   └── selected CSV summaries from the 192-grid run
-└── figures/
-    └── selected paper-facing figures
+└── docs/
+    ├── oai_dev_full_setup_guide.md
+    ├── oai_dev_pipeline_setup.md
+    ├── runbook_two_ue_flexric.md
+    └── demo_paper_results.md
 ```
 
 ## System Assumptions
@@ -179,8 +169,3 @@ UE, core, or RRC recovery. The defensible workflow is:
 The automated runner does this when `ORBIT3C_RNTI_TUNNEL_PROBE=1` and
 `ORBIT3C_STRICT_SLICE_VALIDATION=1`.
 
-## Reporting Results
-
-Use [docs/demo_paper_results.md](docs/demo_paper_results.md) for the concise
-result text and table structure. The selected CSVs in `results_summary/` are the
-paper-facing summaries from the measured 192-configuration grid.

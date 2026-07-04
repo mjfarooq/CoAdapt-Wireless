@@ -7,7 +7,6 @@ logs/
 __pycache__/
 *.log
 *.csv.tmp
-*.pt
 *.onnx
 *.engine
 isaac_command.json

@@ -5,8 +5,8 @@
 *Isaac Sim + OpenAirInterface workcell for co-adaptive wireless control*
 
 CoAdapt-RAN is a research and education workbench for studying co-adaptive
-control in AI-native radio-access networks. The platform is being developed as
-part of an NSF CAREER project on learned O-RAN control under adaptive UE demand.
+control in AI-native radio-access networks. It focuses on learned O-RAN control
+under adaptive UE demand.
 
 The initial release, **InspectCell**, couples a vision-inspection workcell in
 NVIDIA Isaac Sim with an OpenAirInterface-based 5G setup. It exposes the central

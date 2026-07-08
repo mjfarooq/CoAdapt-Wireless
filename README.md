@@ -1,9 +1,30 @@
-# ORBIT-Inspect Two-UE OAI/FlexRIC Demo Artifact
+# CoAdapt-RAN
 
-This repository is a clean artifact for the demo-paper experiment path only. It
-keeps the code and instructions needed to run the two-UE OpenAirInterface
-RFsim/FlexRIC pipeline, collect the measured design-space runs, and report the
-results used by the demo paper.
+**A Research and Education Workbench for Co-Adaptive O-RAN Control**
+
+*Isaac Sim + OpenAirInterface workcell for co-adaptive wireless control*
+
+CoAdapt-RAN is a research and education workbench for studying co-adaptive
+control in AI-native radio-access networks. The platform is being developed as
+part of an NSF CAREER project on learned O-RAN control under adaptive UE demand.
+
+The initial release, **InspectCell**, couples a vision-inspection workcell in
+NVIDIA Isaac Sim with an OpenAirInterface-based 5G setup. It exposes the central
+loop studied in the project: the RAN changes allocation, the endpoint adapts
+sensing or inference behavior, and the resulting demand, telemetry, and task
+performance feed back into the next network decision.
+
+Over the project, CoAdapt-RAN will grow from this seed workcell into a versioned
+research and teaching platform with endpoint adaptation models, O-RAN telemetry
+scripts, stability-map experiments, disclosure and allocation protocols,
+strategic-UE scenarios, and course laboratories.
+
+## InspectCell (initial module)
+
+InspectCell is the first scenario in CoAdapt-RAN and the reproducible artifact
+for the demo-paper experiment path. It keeps the code and instructions needed to
+run the two-UE OpenAirInterface RFsim/FlexRIC pipeline, collect the measured
+design-space runs, and report the results used by the demo paper.
 
 The full research workspace contains training code, debug images, older
 bandwidth-shaping experiments, and exploratory analysis. Those are intentionally
@@ -11,7 +32,7 @@ not included here.
 
 ## Scope
 
-This artifact covers:
+The InspectCell module covers:
 
 - industrial inspection UE on `oaitun_ue1`;
 - background-traffic UE on `oaitun_ue2`;

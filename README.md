@@ -1,12 +1,12 @@
-# CoAdapt-NextG
+# CoAdapt Wireless Workbench
 
-**A Research and Education Workbench for Co-Adaptive Wireless Control**
+**Research and education for co-adaptive wireless control**
 
 *Isaac Sim + OpenAirInterface workcell for co-adaptive wireless control*
 
-CoAdapt-RAN is a research and education workbench for studying co-adaptive
-control in AI-native radio-access networks. The platform is being developed as
-part of an NSF CAREER project on learned O-RAN control under adaptive UE demand.
+CoAdapt Wireless Workbench supports research and education on co-adaptive
+control in AI-native radio-access networks. It focuses on learned O-RAN control
+under adaptive UE demand.
 
 The initial release, **InspectCell**, couples a vision-inspection workcell in
 NVIDIA Isaac Sim with an OpenAirInterface-based 5G setup. It exposes the central
@@ -14,7 +14,7 @@ loop studied in the project: the RAN changes allocation, the endpoint adapts
 sensing or inference behavior, and the resulting demand, telemetry, and task
 performance feed back into the next network decision.
 
-Over the project, CoAdapt-NextG will grow from this seed workcell into a versioned
+Over the project, CoAdapt Wireless Workbench will grow from this seed workcell into a versioned
 research and teaching platform with endpoint adaptation models, O-RAN telemetry
 scripts, stability-map experiments, disclosure and allocation protocols,
 strategic-UE scenarios, and course laboratories.

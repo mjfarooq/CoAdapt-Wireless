@@ -1,10 +1,10 @@
-# CoAdapt-RAN
+# CoAdapt-NextG
 
-**A Research and Education Workbench for Co-Adaptive O-RAN Control**
+**A Research and Education Workbench for Co-Adaptive Wireless Control**
 
 *Isaac Sim + OpenAirInterface workcell for co-adaptive wireless control*
 
-CoAdapt-RAN is a research and education workbench for studying co-adaptive
+CoAdapt-NextG is a research and education workbench for studying co-adaptive
 control in AI-native radio-access networks. It focuses on learned O-RAN control
 under adaptive UE demand.
 
@@ -14,7 +14,7 @@ loop studied in the project: the RAN changes allocation, the endpoint adapts
 sensing or inference behavior, and the resulting demand, telemetry, and task
 performance feed back into the next network decision.
 
-Over the project, CoAdapt-RAN will grow from this seed workcell into a versioned
+Over the project, CoAdapt-NextG will grow from this seed workcell into a versioned
 research and teaching platform with endpoint adaptation models, O-RAN telemetry
 scripts, stability-map experiments, disclosure and allocation protocols,
 strategic-UE scenarios, and course laboratories.

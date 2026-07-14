@@ -1,8 +1,8 @@
 # InspectCell
 
-*Two-UE OAI/FlexRIC vision-inspection workcell — initial CoAdapt Wireless Workbench module*
+*Two-UE OAI/FlexRIC vision-inspection workcell — initial CoAdapt-Wireless-Workbench module*
 
-InspectCell is the first scenario in [CoAdapt Wireless Workbench](../../README.md) and the
+InspectCell is the first scenario in [CoAdapt-Wireless-Workbench](../../README.md) and the
 reproducible artifact for the demo-paper experiment path. It keeps the code and
 instructions needed to run the two-UE OpenAirInterface RFsim/FlexRIC pipeline,
 collect the measured design-space runs, and report the results used by the demo

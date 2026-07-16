@@ -1,0 +1,10 @@
+numpy
+opencv-python
+torch
+ultralytics
+pandas
+matplotlib
+
+# ROS 2 dependencies are provided by the ROS installation, not pip:
+#   source /opt/ros/jazzy/setup.bash
+#   sudo apt install ros-jazzy-rclpy ros-jazzy-cv-bridge

@@ -14,6 +14,10 @@ loop studied in the project: the RAN changes allocation, the endpoint adapts
 sensing or inference behavior, and the resulting demand, telemetry, and task
 performance feed back into the next network decision.
 
+![InspectCell manufacturing workcell: a camera-inspected conveyor and robot cell linked over a 5G/O-RAN connection to edge inference and a digital twin, with sensing/data flow and control/feedback flow closing the loop.](modules/inspectcell/figures/manufacturing_cell.png)
+
+*InspectCell workcell. A camera inspects parts on a conveyor served by a robot; sensing data flows over the 5G/O-RAN link to edge inference and a digital twin, while control and feedback flow back to the cell, closing the co-adaptive loop.*
+
 Over the project, CoAdapt-Wireless-Workbench will grow from this seed workcell into a versioned
 research and teaching platform with endpoint adaptation models, O-RAN telemetry
 scripts, stability-map experiments, disclosure and allocation protocols,
